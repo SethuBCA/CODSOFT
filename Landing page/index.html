@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thamizhi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#hero" class="logo">Thamizhi</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#special">Specials</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Thamizhi</h1>
+      <p>"MAKE YOUR DREAM CAKE REAL"</p>
+      <a href="https://wa.me/918300805572?" target="_blank" class="btn">Order Now via WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Thamizhi</h2>
+      <p>Thamizhi is a fresh and vibrant café born from a deep love for authentic flavors and a passion for creating memorable experiences. Before opening, we studied the market carefully to understand what customers truly want—quality, freshness, and a cozy atmosphere.</p>
+      <p>Every cup of coffee is brewed to perfection, every pastry is crafted with care, and every bite is a journey of taste and tradition. Thamizhi isn’t just a shop—it’s a destination where taste, comfort, and community meet.</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="container">
+      <h2>Menu Highlights</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="Coffee.jpg" alt="Coffee" class="small-img">
+          <h3>Signature Coffee</h3>
+        </div>
+        <div class="menu-item">
+          <img src="Chocolate Cake.jpeg" alt="Chocolate Cake" class="small-img">
+          <h3>Chocolate Cake</h3>
+        </div>
+        <div class="menu-item">
+          <img src="Puffs.jpeg" alt="Puffs" class="small-img">
+          <h3>Puffs</h3>
+        </div>
+        <div class="menu-item">
+          <img src="cake.jpeg" alt="Cakes" class="small-img">
+          <h3>Cakes</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="special">
+    <div class="special-section">
+      <h2>Today’s Special</h2>
+      <p>Try our freshly baked chocolate brownies and cakes available daily!</p>
+      <a href="https://wa.me/918300805572?" target="_blank" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="1.jpeg" alt="Gallery 1" class="small-img">
+        <img src="2.jpeg" alt="Gallery 2" class="small-img">
+        <img src="3.jpeg" alt="Gallery 3" class="small-img">
+        <img src="4.jpeg" alt="Gallery 4" class="small-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/xdkwoakz" method="post">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Email id" required>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Enter your mobile number (10 digits)" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Thamizhi. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
